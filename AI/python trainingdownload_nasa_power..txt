@@ -1,0 +1,4 @@
+python training/download_nasa_power.py
+python training/train_ndvi_model.py     ← THIS WAS MISSING
+python training/train_climate_model.py
+streamlit run ai_webapp/app.py
